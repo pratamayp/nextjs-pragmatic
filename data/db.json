@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Title",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe alias laboriosam perferendis voluptatum ex qui nihil sapiente error tenetur.",
+      "clap": 6
+    },
+    {
+      "id": "2",
+      "title": "Title 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe alias laboriosam perferendis voluptatum ex qui nihil sapiente error tenetur.",
+      "clap": 0
+    },
+    {
+      "id": "df07",
+      "title": "Title 3",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe alias laboriosam perferendis voluptatum ex qui nihil sapiente error tenetur.",
+      "clap": 0
+    },
+    {
+      "id": "1222",
+      "title": "Title 4",
+      "body": "Lorem",
+      "clap": 0
+    },
+    {
+      "id": "10aa",
+      "title": "Title 5",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, atque!",
+      "clap": 0
+    },
+    {
+      "id": "d109",
+      "title": "Title 6",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia?",
+      "clap": 3
+    }
+  ],
+  "user": {
+    "id": 1,
+    "name": "John Doe"
+  }
+}
