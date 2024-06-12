@@ -2,6 +2,7 @@ import { Post } from '@/type/posts';
 import { Metadata } from 'next';
 import React, { Suspense } from 'react';
 import Comments from './comments';
+import { notFound } from 'next/navigation';
 
 const getPost = async (id: Post['id']) => {
   const url = 'http://localhost:3001/posts';
@@ -24,6 +25,10 @@ export const generateMetadata = async ({
 
 const SinglePost = async ({ params: { id } }: { params: { id: string } }) => {
   const post = await getPost(id);
+
+  if (!post) {
+    notFound();
+  }
 
   return (
     <section>
